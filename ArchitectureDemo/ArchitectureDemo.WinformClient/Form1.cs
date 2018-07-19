@@ -24,7 +24,7 @@ namespace ArchitectureDemo.WinformClient
             Greeting greeting = new Greeting();
             string text = greeting.SayHello(name);
 
-            MessageBox.Show(name);
+            MessageBox.Show($"Hello {name}!");
         }
 
         private void label1_Click(object sender, EventArgs e)
